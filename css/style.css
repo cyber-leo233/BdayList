@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(26, 33, 39);
+  color:#FFF;
+  
+}
+h1 {
+  padding:1rem;
+  margin:2rem auto;
+  font-size: 2rem;
+  text-align: center;
+  font-size: 4rem;
+  
+}
+i {
+  margin:0 20px;
+  font-size: 2rem;
+}
+
+
+
+/*overrides skelton default of 1200px*/
+.container {
+  max-width: 500px;
+}
+/*heading color and children */
+
+
+@media (max-width:371px) {
+  .heading {
+    font-size: 2.8rem;
+  }
+  .heading-img {
+   height: 35PX;
+
+  }
+
+}
+
+/*================ link tags============================ */
+ /*delete button*/
+
+
+
+
+
+
+/*==================form styles================================================= */
+
+#form-input {
+  
+  margin:0 auto;
+  
+  transition: border-color .5s;
+ 
+}
+
+
+#form-input:hover,#form-input:focus {
+  border-color:#33C3F0;   
+}
+
+
+
+/*style the table */
+td {
+  word-break: break-all
+}
+
+
+
+
+/*================utilities======================*/
+
+.delete {
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 20px;
+  color: #e74c3c;
+}
+.delete:hover {
+ color:#e74c3c;
+}

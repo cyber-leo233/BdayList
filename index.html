@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>B-days</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+    <h1 class="heading"><i class="fas fa-birthday-cake"></i>Birthdays
+       
+  </h1>
+    
+
+
+  <div class="container">
+
+    <form id="form-input" class="card">
+      <div>
+        <label>Name:</label>
+        <input class="name-input u-full-width" id="name" type="text">
+      </div>
+      <div>
+        <label>Birthday:</label>
+        <input class="bday-input u-full-width" id="bday" type="text">
+      </div>
+      <div>
+        <label>Address:</label>
+        <input class="address-input u-full-width" id="address" type="text">
+        <button id="send" class="button-primary">Submit</button>
+      </div>
+      
+    </form>
+    
+  
+  <br>
+  <br>
+  <hr>
+      
+    <table contenteditable="true" class="u-full-width">
+      <tr>
+        <thead>
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Address</th>
+        
+        
+      </tr>
+    </thead>
+    <tbody id="table-output">
+
+    </tbody>
+
+    
+
+    </table>
+  
+ 
+
+
+  </div>
+  </div>
+</div>
+  <script src="app.js"></script>
+</body>
+
+</html>
